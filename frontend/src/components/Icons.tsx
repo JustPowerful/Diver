@@ -5,9 +5,13 @@ import {
   Waves,
   CloudUpload,
   Paperclip,
+  Eye,
+  X,
 } from "lucide-react";
 
 export const Icons = {
+  close: X,
+  preview: Eye,
   upload: CloudUpload,
   paperclip: Paperclip,
   loading: (props: LucideProps) => {

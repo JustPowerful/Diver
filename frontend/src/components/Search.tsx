@@ -24,7 +24,7 @@ const Search: FC<SearchProps> = ({}) => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center h-full">
+    <div className="flex flex-col items-center justify-center h-full overflow-y-auto">
       <div className="m-0 p-0 flex items-center gap-2 text-5xl font-semibold text-slate-900 select-none">
         <Icons.fish className="w-20 h-20" /> <span>Diver</span>
       </div>
@@ -59,7 +59,10 @@ const Search: FC<SearchProps> = ({}) => {
       {history.length > 0 && (
         <div className="w-2/3">
           {documents.map((doc) => (
-            <DocumentPreview doc={doc} />
+            <DocumentPreview
+              doc={doc}
+              numberOfTermDocuments={documents.length}
+            />
           ))}
         </div>
       )}

@@ -69,6 +69,7 @@ exports.search = async (req, res) => {
           score: intersection.length,
           tf: Number(tf.toFixed(3)),
           content: content,
+          totalDocuments: documents.length,
           // idf: Number(idf.toFixed(3)),
           // tfidf: Number((tf * idf).toFixed(3)),
         };

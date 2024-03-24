@@ -16,6 +16,11 @@ export default defineConfig({
         changeOrigin: false,
         secure: false,
       },
+      "/documents": {
+        target: "http://localhost:3000",
+        changeOrigin: false,
+        secure: false,
+      },
     },
   },
 });
