@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="https://github.com/JustPowerful/Diver/assets/50250163/7308493e-c3b8-4ac8-9265-4754799d9501" width="400px" height="auto"/>
+</div>
+
+
+
 **Diver - Local Document Search Engine**
 
 Diver is a powerful local document search engine built using Node.js Express and React. It incorporates Optical Character Recognition (OCR) technology to recognize text within images, enabling efficient searching within supported file formats.
